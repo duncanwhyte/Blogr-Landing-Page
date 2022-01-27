@@ -13,6 +13,7 @@ body {
   display: grid;
   grid-auto-rows: auto;
   font-family: "Overpass", sans-serif;
+  overflow-x: hidden;
 }
 
 .mobile-menu {
@@ -29,6 +30,7 @@ body {
   top: 100px;
   left: 50%;
   transform: translateX(1000px);
+  display: none;
 }
 @media (min-width: 1024px) {
   .mobile-menu {
