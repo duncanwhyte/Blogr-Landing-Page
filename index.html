@@ -13,10 +13,10 @@
   <title>Frontend Mentor | [Blogr]</title>
 </head>
 <body>
-  <nav id="mobile-menu">
+  <nav class="mobile-menu">
     <div>
-      <h3>Product<span><img src="./images/icon-arrow-dark.svg" alt=""></span></h3>
-      <ul class="product-links__list">
+      <h3 class="mobile-nav__header">Product<span><img class="mobile-nav__arrows" src="./images/icon-arrow-dark.svg" alt=""></span></h3>
+      <ul class="mobile-links mobile-product-links__list">
         <li>Overview</li>
         <li>Pricing</li>
         <li>Marketplace</li>
@@ -25,8 +25,8 @@
       </ul>  
     </div>
     <div>
-      <h3>Company<span><img src="./images/icon-arrow-dark.svg" alt=""></span></h3>
-      <ul class="company-links__list">
+      <h3 class="mobile-nav__header">Company<span><img class="mobile-nav__arrows" src="./images/icon-arrow-dark.svg" alt=""></span></h3>
+      <ul class="mobile-links mobile-company-links__list">
         <li>About</li>
         <li>Team</li>
         <li>Blog</li>
@@ -34,8 +34,8 @@
       </ul>
     </div>
     <div>
-      <h3>Connect<span><img src="./images/icon-arrow-dark.svg" alt=""></span></h3>
-      <ul class="connect-links__list">
+      <h3 class="mobile-nav__header">Connect<span><img class="mobile-nav__arrows" src="./images/icon-arrow-dark.svg" alt=""></span></h3>
+      <ul class="mobile-links mobile-connect-links__list">
         <li>Contact</li>
         <li>Newsletter</li>
         <li>LinkedIn</li>
@@ -52,10 +52,10 @@
     <div class="logo-container">
       <img src="./images/logo.svg" alt="main-logo">
     </div>
-    <nav id="desktop-navbar">
+    <nav class="desktop-navbar">
       <div>
-        <h3>Product<span><img src="./images/icon-arrow-light.svg" alt=""></span></h3>
-        <ul class="product-dropdown__links">
+        <h3 class="desktop-header">Product<span><img class="desktop-arrow__product" src="./images/icon-arrow-light.svg" alt=""></span></h3>
+        <ul class="desktop-product-dropdown__links">
           <li>Overview</li>
           <li>Pricing</li>
           <li>Marketplace</li>
@@ -64,8 +64,8 @@
         </ul>  
       </div>
       <div>
-        <h3>Company<span><img src="./images/icon-arrow-light.svg" alt=""></span></h3>
-        <ul class="company-dropdown__links">
+        <h3 class="desktop-header">Company<span><img class="desktop-arrow__company" src="./images/icon-arrow-light.svg" alt=""></span></h3>
+        <ul class="desktop-company-dropdown__links">
           <li>About</li>
           <li>Team</li>
           <li>Blog</li>
@@ -73,8 +73,8 @@
         </ul>
       </div>
       <div>
-        <h3>Connect<span><img src="./images/icon-arrow-light.svg" alt=""></span></h3>
-        <ul class="connect-dropdown__links">
+        <h3 class="desktop-header">Connect<span><img class="desktop-arrow__connect" src="./images/icon-arrow-light.svg" alt=""></span></h3>
+        <ul class="desktop-connect-dropdown__links">
           <li>Contact</li>
           <li>Newsletter</li>
           <li>LinkedIn</li>
@@ -85,8 +85,8 @@
       <button class="login-button"><h3>Login</h3></button>
       <button class="sign-up__button"><h3>Sign Up</h3></button>
     </div>
-    <div class="hamburger-icon">
-      <img src="./images/icon-hamburger.svg" alt="">
+    <div>
+      <img class="hamburger-icon" src="./images/icon-hamburger.svg" alt="">
     </div>
   </header>
   <div id="intro-container">
@@ -180,6 +180,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">duncanwhyte</a>.
   </div>
-  <script src="./app.js"></script>
+  <script src="./scripts/mobileNav.js"></script>
+  <script src="./scripts/desktopNav.js"></script>
 </body>
 </html>
