@@ -27,10 +27,8 @@ body {
     top: 100px;
     left: 50%;
     transform: translateX(1000px);
-    display: none;
     @media (min-width: f.$layout-breakpoint-laptop) {
         display: none;
-        
     }
     h3 {
         color: map-get(f.$colors, main-body__text);
