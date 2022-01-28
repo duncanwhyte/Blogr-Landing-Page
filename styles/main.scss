@@ -67,16 +67,23 @@ body {
         @include f.display-flex;
         flex-direction: column;
         .login-button {
+            padding: calc(f.$standard-unit - 0.7rem) f.$standard-unit;
             background: none;
             border: none;
             cursor: pointer;
+            color: map-get(f.$colors, main-body__text);
+            font-size: calc(f.$standard-unit + 0.1rem);
+            font-weight: bold;
         }
         .sign-up__button {
-            padding: calc(f.$standard-unit - 0.9rem) f.$standard-unit;
+            padding: calc(f.$standard-unit - 0.7rem) f.$standard-unit;
             border-radius: 25px;
             background: hsl(13, 100%, 72%);
             border: none;
             cursor: pointer;
+            color: map-get(f.$colors, standard-white);
+            font-size: calc(f.$standard-unit + 0.1rem);
+            font-weight: bold;
 
         h3 {
             color: map-get(f.$colors, standard-white);
@@ -113,7 +120,7 @@ body {
                 padding: f.$standard-unit;
                 li {
                     cursor: pointer;
-                    color: map-get(f.$colors, main-body__text )
+                    color: map-get(f.$colors, main-body__text)
                 }
                 li:hover {
                     color: black;
@@ -150,22 +157,24 @@ body {
         display: block;
     }
     .login-button {
+        padding: calc(f.$standard-unit - 0.7rem) f.$standard-unit;
         background: none;
         border: none;
         color: map-get(f.$colors, standard-white);
         cursor: pointer;
+        font-size: calc(f.$standard-unit + 0.1rem);
+        font-weight: bold;
 
     }
     .sign-up__button {
-        padding: calc(f.$standard-unit - 0.9rem) f.$standard-unit;
+        padding: calc(f.$standard-unit - 0.7rem) f.$standard-unit;
         border-radius: 25px;
         background: map-get(f.$colors, standard-white);
         border: none;
         cursor: pointer;
-        h3 {
-            color: hsl(13, 100%, 72%);
-            cursor: pointer;
-        }
+        color: hsl(13, 100%, 72%);
+        font-size: calc(f.$standard-unit + 0.1rem);
+        font-weight: bold;
     }
     .sign-up__button:hover {
         background-color: hsl(355, 100%, 74%);
@@ -190,7 +199,7 @@ body {
         align-items: center;
         justify-content: space-between;
         padding: f.$standard-unit;
-    .logo-container {
+    .logo-image__container {
         margin-left: f.$standard-unit;
     }
     .hamburger-icon {

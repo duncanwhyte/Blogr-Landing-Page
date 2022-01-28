@@ -77,16 +77,23 @@ body {
   flex-direction: column;
 }
 .mobile-menu .button-container .login-button {
+  padding: 0.3rem 1rem;
   background: none;
   border: none;
   cursor: pointer;
+  color: #4b5862;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 .mobile-menu .button-container .sign-up__button {
-  padding: 0.1rem 1rem;
+  padding: 0.3rem 1rem;
   border-radius: 25px;
   background: #ff8f70;
   border: none;
   cursor: pointer;
+  color: #FFF;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 .mobile-menu .button-container .sign-up__button h3 {
   color: #FFF;
@@ -168,21 +175,23 @@ body {
   }
 }
 .desktop-buttons__container .login-button {
+  padding: 0.3rem 1rem;
   background: none;
   border: none;
   color: #FFF;
   cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 .desktop-buttons__container .sign-up__button {
-  padding: 0.1rem 1rem;
+  padding: 0.3rem 1rem;
   border-radius: 25px;
   background: #FFF;
   border: none;
   cursor: pointer;
-}
-.desktop-buttons__container .sign-up__button h3 {
   color: #ff8f70;
-  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 .desktop-buttons__container .sign-up__button:hover {
   background-color: #ff7a85;
@@ -209,7 +218,7 @@ body {
   justify-content: space-between;
   padding: 1rem;
 }
-#introduction-section #header .logo-container {
+#introduction-section #header .logo-image__container {
   margin-left: 1rem;
 }
 #introduction-section #header .hamburger-icon {
